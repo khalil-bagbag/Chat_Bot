@@ -1,0 +1,242 @@
+session_config:
+  session_expiration_time: 30
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- bye
+- main_menu
+- welcome_message
+- welcome_message2
+- RDV
+- A_propos
+- Contactez nous
+- Boutique
+- Produit1
+- Produit2
+- Produit3
+- Non Merci
+- out_of_scope
+- default
+- get_started
+- human_handoff
+- react_positive
+- Service client
+- Inspiration
+- Shopping guidé
+- Retour Menu
+- Citations
+- Citations_encore
+- Articles à lire
+- Articles à lire1
+- Articles à lire2
+- Inspirations
+- Horribles
+- Mediocre
+- Bien
+- Moyen
+- Parfait
+- Horrible
+- Shopping
+- Offres et Promos
+- feedback
+slots:
+  Nom_Prenom:
+    type: unfeaturized
+    auto_fill: false
+  objet:
+    type: unfeaturized
+    auto_fill: false
+  phno:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+responses:
+  utter_default:
+  - quick_replies:
+    - payload: Shopping
+      title: 🛒 Shopping
+    - payload: Service client
+      title: 👥 Service client
+    - payload: Inspiration
+      title: ⭐ Inspiration
+    text: 'Je suis vraiment desole mais je vous comprends pas, Je peux vous repondre
+      que par rapport à ces sujets là : '
+  utter_bye:
+  - text: Merci pour votre visite , à la prochaine !!
+  utter_Boutique:
+  - text: Voici nos produits
+  utter_Produit1:
+  - image: https://www.canalvie.com/polopoly_fs/1.8551249.1541705192!/image/equipement%20de%20sports.jpg_gen/derivatives/cvlandscape_670_377/equipement%20de%20sports.jpg
+    text: "\U0001F6A3 Articles de sport : [Plus d'informations](https://maniaro.tn/)"
+  utter_Produit2:
+  - image: https://www.needsandmoods.com/wp-content/uploads/2019/07/date-peremption-cosmetiques.jpg
+    text: "\U0001F6A3 Cosmetiques : [Plus d'informations](https://maniaro.tn/)"
+  utter_Produit3:
+  - image: https://www.sm-devis.tn/wp-content/uploads/2018/04/SM-Devis-electromanager.jpg
+    text: "\U0001F6A3 Electromenager : [Plus d'informations](https://maniaro.tn/)"
+  utter_ask_Nom_Prenom:
+  - text: Veuillez saisir votre nom prénom ?
+  utter_ask_objet:
+  - text: Veuillez saisir l'objet de votre demande ?
+  utter_ask_phno:
+  - text: Quel est votre numero 📲 afin de vous contacter?
+  utter_greet:
+  - text: ' Bonjour cher client , bienvenue dans notre site '
+  utter_message_RDV:
+  - text: 🙋 Merci de saisir vos informations afin de vous contactez dans les plus
+      brefs delais
+  utter_out_of_scope:
+  - text: Desole je vous ai pas compris
+  utter_message_A_propos:
+  - text: ' 🙋Développement de plateforme e-commerce pour le compte de Maniaro en se
+      basant  sur l’expertise service client, entreposage, logistique et livraison
+      à domicile. Accompagner tous les acteurs Tunisiens du commerce voulant se lancer
+      en ligne.'
+  utter_welcome_message:
+  - quick_replies:
+    - payload: Shopping
+      title: 🛒 Shopping
+    - payload: Service client
+      title: 👥 Service client
+    - payload: Inspiration
+      title: ⭐ Inspiration
+    text: "Bonjour Je suis Mk-Bot un chatbot intelligent développé et concu par Maniaro\
+      \  \n  Comment puis-je vous aider ?  "
+  utter_welcome_message2:
+  - quick_replies:
+    - payload: Shopping
+      title: 🛒 Shopping
+    - payload: Service client
+      title: 👥 Service client
+    - payload: Inspiration
+      title: ⭐ Inspiration
+    - payload: Non Merci
+      title: ☑️  Non Merci
+    text: "Vous desirez autre chose ?\n  "
+  utter_feedback:
+  - quick_replies:
+    - payload: ⭐⭐⭐⭐⭐
+      title: ⭐⭐⭐⭐⭐ Parfait
+    - payload: ⭐⭐⭐⭐
+      title: ⭐⭐⭐⭐ Bien
+    - payload: ⭐⭐⭐
+      title: ⭐⭐⭐ Moyen
+    - payload: ⭐⭐
+      title: ⭐⭐ Mediocre
+    - payload: ⭐
+      title: ⭐ Horrible
+    text: "Comment avez vous trouvez notre ChatBot \n  "
+  utter_Parfait:
+  - text: Oh Merci beaucoup , c'est gentil de votre part
+  utter_Moyen:
+  - text: Oh Merci c'est gentil
+  utter_Bien:
+  - text: Merci je ferais de mon mieux la prochaine fois ...
+  utter_Mediocre:
+  - text: D'accord on fera de notre mieux la prochaine fois
+  utter_Horrible:
+  - text: C'est noté merci pour votre feedback
+  utter_Contactez nous:
+  - text: 🕐 Nous sommes ouvert du lundi au samedi de 8h jusqu'à 17h , Telephone (+216
+      22...) Pour avoir plus d'in formations cliquez [sur ce lien] (https://maniaro.tn/)
+  utter_Non Merci:
+  - text: Merci nous vous remercions pour votre visite , A la prochaine 👏👏
+  utter_handoff:
+  - text: Vous ne pouvez pas parler à un humain directment mais vous pouvez nous appelez
+      sur le +21653740664 , ou par mail sur maniaro@maniaro.tn
+  utter_Service client:
+  - quick_replies:
+    - payload: RDV
+      title: 📅 Notre agent vous contacte
+    - payload: Contactez nous
+      title: 📞 Contactez nous
+    - payload: Retour Menu
+      title: Retour au Menu principal
+    text: Pouvez-vous me préciser le sujet de votre demande ?
+  utter_Shopping:
+  - quick_replies:
+    - payload: Offres et Promos
+      title: 🏷️ Offres et Promos
+    - payload: Notre e-Boutique
+      title: 🛍️ Notre e-Boutique
+    - payload: Retour Menu
+      title: Retour au Menu principal
+    text: Vous desirez voir nos produit sur notre e-Boutique ou consultez nos offres
+      et Promos ?
+  utter_Inspiration:
+  - quick_replies:
+    - payload: Citations
+      title: 🖼️ Citations
+    - payload: Articles à lire
+      title: 📰 Articles à lire
+    - payload: Retour Menu
+      title: Retour au Menu principal
+    text: ' Ces sujets pourraient vous intéresser : '
+  utter_Citations:
+  - text: Premiere citations
+  - text: Deuxieme citations
+  - text: Troisime citations
+  - text: Quatrieme citations
+  utter_Citations_encore:
+  - quick_replies:
+    - payload: Citations
+      title: 🖼️ Oui avec plaisir
+    - payload: Retour Menu
+      title: Retour au Menu principal
+    text: Vous voulez plus de citations ?
+  utter_Articles_Menu:
+  - quick_replies:
+    - payload: Retour Menu
+      title: Retour au Menu principal
+    text: Retour au Menu
+  utter_Articles à lire:
+  - text: 'Voici quelques articles qui pourront vous interesser : '
+  utter_Articles à lire1:
+  - image: https://www.canalvie.com/polopoly_fs/1.8551249.1541705192!/image/equipement%20de%20sports.jpg_gen/derivatives/cvlandscape_670_377/equipement%20de%20sports.jpg
+    text: "\U0001F6A3 Articles 1 : [Plus d'informations](https://maniaro.tn/)"
+  utter_Articles à lire2:
+  - image: https://www.canalvie.com/polopoly_fs/1.8551249.1541705192!/image/equipement%20de%20sports.jpg_gen/derivatives/cvlandscape_670_377/equipement%20de%20sports.jpg
+    text: "\U0001F6A3 Articles 2 : [Plus d'informations](https://maniaro.tn/)"
+  utter_Offres et promos:
+  - text: ' Voici nos offres et promos : '
+  utter_Offres et promos1:
+  - image: https://www.canalvie.com/polopoly_fs/1.8551249.1541705192!/image/equipement%20de%20sports.jpg_gen/derivatives/cvlandscape_670_377/equipement%20de%20sports.jpg
+    text: "\U0001F6A3 Offres 1 : [Plus d'informations](https://maniaro.tn/)"
+  utter_Offres et promos2:
+  - image: https://www.canalvie.com/polopoly_fs/1.8551249.1541705192!/image/equipement%20de%20sports.jpg_gen/derivatives/cvlandscape_670_377/equipement%20de%20sports.jpg
+    text: "\U0001F6A3 Offres 2 : [Plus d'informations](https://maniaro.tn/)"
+  utter_react_positive:
+  - text: 😄
+  - text: 😊
+  - text: 👏
+  - text: 😍
+actions:
+- utter_greet
+- utter_Articles à lire
+- utter_Articles à lire1
+- utter_Articles à lire2
+- utter_Service client
+- utter_Citations
+- utter_Citations_encore
+- utter_Inspiration
+- utter_bye
+- utter_welcome_message
+- utter_welcome_message2
+- utter_Produit1
+- utter_Produit2
+- utter_Produit3
+- utter_ask_Nom_Prenom
+- utter_ask_objet
+- utter_ask_phno
+- utter_message_RDV
+- utter_message_A_propos
+- utter_Contactez nous
+- utter_Non Merci
+- utter_default
+- utter_out_of_scope
+- utter_react_positive
+- utter_slots_values
+- utter_feedback
+forms:
+- RDV

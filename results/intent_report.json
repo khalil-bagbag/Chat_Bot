@@ -1,0 +1,99 @@
+{
+  "Temoignages": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "out_of_scope": 3
+    }
+  },
+  "main_menu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 0.5555555555555556,
+    "recall": 1.0,
+    "f1-score": 0.7142857142857143,
+    "support": 5,
+    "confused_with": {}
+  },
+  "merci": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "Activités": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "contact_us": 2,
+      "out_of_scope": 1
+    }
+  },
+  "bye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "Contactez nous": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "contact_us": 3
+    }
+  },
+  "A_propos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "RDV": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "formulaire": 4
+    }
+  },
+  "micro avg": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7719298245614035,
+    "f1-score": 0.838095238095238,
+    "support": 57
+  },
+  "macro avg": {
+    "precision": 0.5555555555555556,
+    "recall": 0.6,
+    "f1-score": 0.5714285714285714,
+    "support": 57
+  },
+  "weighted avg": {
+    "precision": 0.732943469785575,
+    "recall": 0.7719298245614035,
+    "f1-score": 0.7468671679197995,
+    "support": 57
+  }
+}

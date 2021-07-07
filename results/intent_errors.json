@@ -1,0 +1,106 @@
+[
+  {
+    "text": "Rendez vous",
+    "intent": "RDV",
+    "intent_prediction": {
+      "name": "formulaire",
+      "confidence": 0.9854817390441895
+    }
+  },
+  {
+    "text": "Rdv",
+    "intent": "RDV",
+    "intent_prediction": {
+      "name": "formulaire",
+      "confidence": 0.9815051555633545
+    }
+  },
+  {
+    "text": "RDV",
+    "intent": "RDV",
+    "intent_prediction": {
+      "name": "formulaire",
+      "confidence": 0.9815051555633545
+    }
+  },
+  {
+    "text": "formulaire",
+    "intent": "RDV",
+    "intent_prediction": {
+      "name": "formulaire",
+      "confidence": 0.9835678935050964
+    }
+  },
+  {
+    "text": "Activités",
+    "intent": "Activités",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.23126220703125
+    }
+  },
+  {
+    "text": "activités",
+    "intent": "Activités",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.23126220703125
+    }
+  },
+  {
+    "text": "ce que vous faites",
+    "intent": "Activités",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4179759621620178
+    }
+  },
+  {
+    "text": "Nous contacter",
+    "intent": "Contactez nous",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.8442493677139282
+    }
+  },
+  {
+    "text": "Contactez-nous",
+    "intent": "Contactez nous",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.8416615724563599
+    }
+  },
+  {
+    "text": "contactez nous",
+    "intent": "Contactez nous",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.8689354062080383
+    }
+  },
+  {
+    "text": "Temoignages",
+    "intent": "Temoignages",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.30048874020576477
+    }
+  },
+  {
+    "text": "emoignages",
+    "intent": "Temoignages",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2527396082878113
+    }
+  },
+  {
+    "text": "TEMOIGNAGES",
+    "intent": "Temoignages",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.30048874020576477
+    }
+  }
+]
